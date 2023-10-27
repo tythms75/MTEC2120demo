@@ -159,6 +159,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            Shoot(); 
         }
 
         private void LateUpdate()
@@ -209,6 +210,15 @@ namespace StarterAssets
             // Cinemachine will follow this target
             CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride,
                 _cinemachineTargetYaw, 0.0f);
+        }
+
+        private void Shoot()
+        {
+            if(_input.shoot)
+            {
+                Debug.Log("Shooting bullets.");
+
+            }
         }
 
         private void Move()
