@@ -42,13 +42,13 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Shoot",
-                    "type": "Value",
-                    "id": "5529127f-d0fd-4a17-a2d1-50b48c2a1376",
-                    "expectedControlType": "",
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "2ecf7a9a-1fb7-4ea7-b9d7-2e4e94a32061",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -230,12 +230,12 @@
                 },
                 {
                     "name": "",
-                    "id": "9b76a5bf-22f0-4986-a714-4d93f80fb9fa",
-                    "path": "<Keyboard>/shift",
+                    "id": "bc0730ba-140e-4b15-b0df-538f51bca361",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Shoot",
+                    "groups": "",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
